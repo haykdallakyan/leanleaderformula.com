@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lean Leader Formula | Grow From Operator to Director in Manufacturing</title>
+  <meta name="description" content="The proven framework to grow faster in operations and manufacturing. Learn how Hayk Dallakyan went from operator to Senior Director in 7 years — twice, in two different countries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ22X2PZYD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QZ22X2PZYD');
+  </script>
+
+  <!-- Facebook Pixel -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '924689913105567');
+    fbq('track', 'PageView');
+  </script>
+
+  <style>
+    /* =========================================================
+       RESET & BASE
+    ========================================================= */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:       #4273D4;
+      --blue-dark:  #1837DB;
+      --blue-navy:  #042E54;
+      --purple:     #AD7DA6;
+      --gold:       #D4AF37;
+      --gold-light: #F0D060;
+      --white:      #FFFFFF;
+      --off-white:  #F8F6F2;
+      --gray-light: #EEF0F5;
+      --gray:       #6B7280;
+      --text:       #0F1B2D;
+
+      --font-heading: 'DM Serif Text', Georgia, serif;
+      --font-body:    'Inter', system-ui, sans-serif;
+      --font-accent:  'Outfit', sans-serif;
+
+      --max-w: 1140px;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(4,46,84,0.10);
+      --shadow-lg: 0 12px 48px rgba(4,46,84,0.16);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* =========================================================
+       UTILITY
+    ========================================================= */
+    .section { padding: 96px 0; }
+    .section--alt { background: var(--off-white); }
+    .section--dark { background: var(--blue-navy); color: var(--white); }
+    .section--blue { background: var(--blue); color: var(--white); }
+
+    .eyebrow {
+      font-family: var(--font-accent);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+    .section--dark .eyebrow,
+    .section--blue .eyebrow { color: var(--gold-light); }
+
+    h1, h2, h3, h4 { font-family: var(--font-heading); line-height: 1.2; }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      margin-bottom: 20px;
+    }
+
+    .section-intro {
+      font-size: 1.15rem;
+      color: var(--gray);
+      max-width: 640px;
+    }
+    .section--dark .section-intro,
+    .section--blue .section-intro { color: rgba(255,255,255,0.80); }
+
+    .text-center { text-align: center; }
+    .text-center .section-intro { margin-left: auto; margin-right: auto; }
+
+    .gold { color: var(--gold); }
+    .blue { color: var(--blue); }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-accent);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 16px 32px;
+      border-radius: 6px;
+      transition: transform 0.18s, box-shadow 0.18s, background 0.18s;
+      cursor: pointer;
+      border: none;
+      text-align: center;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--blue-navy);
+    }
+    .btn-primary:hover { background: var(--gold-light); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid var(--white);
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.12); }
+
+    .btn-dark {
+      background: var(--blue-navy);
+      color: var(--white);
+    }
+    .btn-dark:hover { background: #062548; }
+
+    .btn-sm { padding: 11px 22px; font-size: 0.9rem; }
+
+    /* Divider */
+    .divider {
+      width: 56px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 2px;
+      margin: 20px 0 32px;
+    }
+    .text-center .divider { margin-left: auto; margin-right: auto; }
+
+    /* =========================================================
+       NAVBAR
+    ========================================================= */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(4, 46, 84, 0.97);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .navbar__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+
+    .navbar__brand {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      color: var(--white);
+      letter-spacing: 0.02em;
+    }
+    .navbar__brand span { color: var(--gold); }
+
+    .navbar__links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .navbar__links a {
+      color: rgba(255,255,255,0.80);
+      font-size: 0.92rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .navbar__links a:hover { color: var(--white); }
+
+    .navbar__cta {
+      background: var(--gold);
+      color: var(--blue-navy) !important;
+      padding: 9px 20px;
+      border-radius: 6px;
+      font-weight: 700 !important;
+      font-family: var(--font-accent);
+    }
+    .navbar__cta:hover { background: var(--gold-light); color: var(--blue-navy) !important; }
+
+    /* Hamburger */
+    .navbar__toggle {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+    .navbar__toggle span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+    .hero {
+      background: linear-gradient(135deg, var(--blue-navy) 0%, #0a3a6b 60%, #1837DB 100%);
+      color: var(--white);
+      padding: 100px 0 80px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .hero__inner {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 64px;
+      align-items: center;
+      position: relative;
+    }
+
+    .hero__eyebrow {
+      font-family: var(--font-accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .hero__title {
+      font-size: clamp(2.8rem, 5.5vw, 4.2rem);
+      line-height: 1.08;
+      margin-bottom: 12px;
+    }
+    .hero__title span { color: var(--gold); }
+
+    .hero__subtitle {
+      font-family: var(--font-accent);
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 28px;
+    }
+
+    .hero__desc {
+      font-size: 1.18rem;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.7;
+      margin-bottom: 40px;
+      max-width: 540px;
+    }
+
+    .hero__ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 48px;
+    }
+
+    .hero__stats {
+      display: flex;
+      gap: 40px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .hero__stat-num {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .hero__stat-label {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.3;
+    }
+
+    .hero__book-card {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 36px 32px;
+      backdrop-filter: blur(4px);
+      text-align: center;
+    }
+
+    .hero__book-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--blue-navy);
+      font-family: var(--font-accent);
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 4px;
+      margin-bottom: 24px;
+    }
+
+    .hero__book-title {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      margin-bottom: 6px;
+    }
+
+    .hero__book-sub {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+
+    .hero__book-features {
+      text-align: left;
+      margin-bottom: 28px;
+    }
+    .hero__book-features li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.80);
+    }
+    .hero__book-features li::before {
+      content: '✓';
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* =========================================================
+       RETAILERS
+    ========================================================= */
+    .retailers { padding: 56px 0; border-bottom: 1px solid var(--gray-light); }
+
+    .retailers__label {
+      font-family: var(--font-accent);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gray);
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .retailers__grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .retailer-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border: 1.5px solid #DDE2EC;
+      border-radius: 8px;
+      font-family: var(--font-accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--blue-navy);
+      background: var(--white);
+      transition: border-color 0.18s, box-shadow 0.18s, background 0.18s;
+    }
+    .retailer-btn:hover {
+      border-color: var(--blue);
+      box-shadow: 0 2px 12px rgba(66,115,212,0.15);
+      background: var(--gray-light);
+    }
+    .retailer-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* =========================================================
+       ABOUT THE BOOK
+    ========================================================= */
+    .about__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: center;
+    }
+
+    .about__quote {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      font-style: italic;
+      color: var(--blue-navy);
+      border-left: 4px solid var(--gold);
+      padding-left: 24px;
+      margin-bottom: 32px;
+      line-height: 1.4;
+    }
+
+    .about__text { color: var(--gray); margin-bottom: 24px; }
+
+    .benefit-list { display: flex; flex-direction: column; gap: 18px; margin-top: 32px; }
+
+    .benefit-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .benefit-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--white);
+      font-size: 1.1rem;
+    }
+
+    .benefit-item h4 {
+      font-family: var(--font-accent);
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: var(--blue-navy);
+    }
+    .benefit-item p { font-size: 0.92rem; color: var(--gray); }
+
+    /* Triangle pillars */
+    .pillars {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .pillar {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      border-top: 4px solid var(--blue);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .pillar:nth-child(2) { border-top-color: var(--gold); }
+    .pillar:nth-child(3) { border-top-color: var(--purple); }
+    .pillar:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+
+    .pillar__icon { font-size: 2.2rem; margin-bottom: 14px; }
+    .pillar h3 { font-family: var(--font-accent); font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; color: var(--blue-navy); }
+    .pillar p { font-size: 0.88rem; color: var(--gray); line-height: 1.6; }
+
+    /* =========================================================
+       AUTHOR STORY
+    ========================================================= */
+    .story__grid {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 72px;
+      align-items: start;
+    }
+
+    .story__photo-wrap {
+      position: relative;
+    }
+
+    .story__photo {
+      border-radius: var(--radius);
+      width: 100%;
+      object-fit: cover;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .story__photo-tag {
+      position: absolute;
+      bottom: -16px;
+      right: -16px;
+      background: var(--gold);
+      color: var(--blue-navy);
+      font-family: var(--font-accent);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      line-height: 1.3;
+    }
+
+    .story__achievements {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 32px 0;
+    }
+
+    .achievement {
+      background: var(--gray-light);
+      border-radius: 10px;
+      padding: 18px 20px;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+    .achievement__icon { font-size: 1.4rem; flex-shrink: 0; }
+    .achievement h4 { font-family: var(--font-accent); font-size: 0.92rem; font-weight: 700; margin-bottom: 2px; color: var(--blue-navy); }
+    .achievement p { font-size: 0.82rem; color: var(--gray); }
+
+    .story__text { color: var(--gray); margin-bottom: 20px; }
+    .story__text strong { color: var(--blue-navy); }
+
+    /* =========================================================
+       PATHS / OPTIONS
+    ========================================================= */
+    .paths__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 56px;
+    }
+
+    .path-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 40px 32px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .path-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+
+    .path-card--featured {
+      border: 2px solid var(--gold);
+    }
+    .path-card--featured::before {
+      content: 'MOST POPULAR';
+      position: absolute;
+      top: 16px;
+      right: -28px;
+      background: var(--gold);
+      color: var(--blue-navy);
+      font-family: var(--font-accent);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      padding: 5px 36px;
+      transform: rotate(45deg);
+    }
+
+    .path-card__speed {
+      display: inline-block;
+      font-family: var(--font-accent);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      background: var(--gray-light);
+      color: var(--gray);
+    }
+    .path-card--featured .path-card__speed {
+      background: rgba(212,175,55,0.15);
+      color: #8a6e00;
+    }
+
+    .path-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--blue-navy);
+    }
+
+    .path-card p { font-size: 0.93rem; color: var(--gray); margin-bottom: 24px; flex: 1; }
+
+    .path-card__includes {
+      margin-bottom: 28px;
+    }
+    .path-card__includes li {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      font-size: 0.88rem;
+      color: var(--gray);
+      margin-bottom: 8px;
+    }
+    .path-card__includes li::before {
+      content: '✓';
+      color: var(--blue);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .path-card--featured .path-card__includes li::before { color: #8a6e00; }
+
+    /* =========================================================
+       PURCHASE / OFFERS
+    ========================================================= */
+    .offers__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 56px;
+    }
+
+    .offer-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 44px 40px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .offer-card__tag {
+      display: inline-block;
+      font-family: var(--font-accent);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      background: rgba(212,175,55,0.20);
+      color: var(--gold-light);
+      align-self: flex-start;
+    }
+
+    .offer-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.7rem;
+      margin-bottom: 8px;
+    }
+
+    .offer-card__subtitle {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.50);
+      margin-bottom: 28px;
+    }
+
+    .offer-card__list { margin-bottom: 36px; flex: 1; }
+    .offer-card__list li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      font-size: 0.93rem;
+      color: rgba(255,255,255,0.85);
+    }
+    .offer-card__list li::before {
+      content: '✓';
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* =========================================================
+       WHO IT'S FOR
+    ========================================================= */
+    .audience__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 48px;
+    }
+
+    .audience-card {
+      border-radius: 10px;
+      padding: 28px 24px;
+      background: var(--gray-light);
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .audience-card:hover { background: var(--white); box-shadow: var(--shadow); }
+
+    .audience-card__icon { font-size: 1.8rem; margin-bottom: 14px; }
+    .audience-card h4 { font-family: var(--font-accent); font-weight: 700; font-size: 1rem; margin-bottom: 6px; color: var(--blue-navy); }
+    .audience-card p { font-size: 0.88rem; color: var(--gray); }
+
+    /* =========================================================
+       COACHING CTA
+    ========================================================= */
+    .coaching__inner {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .coaching__text p { color: rgba(255,255,255,0.80); margin-bottom: 16px; }
+
+    .coaching__card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: var(--radius);
+      padding: 36px 32px;
+    }
+
+    .coaching__card h3 { font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 6px; }
+    .coaching__card p { font-size: 0.9rem; color: rgba(255,255,255,0.65); margin-bottom: 24px; }
+
+    .coaching__card-list { margin-bottom: 28px; }
+    .coaching__card-list li {
+      display: flex;
+      gap: 10px;
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.80);
+      margin-bottom: 10px;
+    }
+    .coaching__card-list li::before {
+      content: '→';
+      color: var(--gold);
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+    .footer {
+      background: #04111f;
+      color: rgba(255,255,255,0.55);
+      padding: 52px 0 36px;
+    }
+
+    .footer__inner {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 48px;
+      align-items: start;
+      margin-bottom: 40px;
+    }
+
+    .footer__brand {
+      font-family: var(--font-heading);
+      font-size: 1.4rem;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    .footer__brand span { color: var(--gold); }
+    .footer__tagline { font-size: 0.88rem; max-width: 320px; }
+
+    .footer__links {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer__links a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.65);
+      font-size: 0.88rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .footer__links a:hover { color: var(--white); }
+
+    .footer__bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+    }
+
+    /* =========================================================
+       RESPONSIVE
+    ========================================================= */
+    @media (max-width: 980px) {
+      .hero__inner { grid-template-columns: 1fr; }
+      .hero__book-card { max-width: 480px; }
+      .about__grid { grid-template-columns: 1fr; gap: 48px; }
+      .story__grid { grid-template-columns: 1fr; gap: 48px; }
+      .story__photo-wrap { max-width: 360px; }
+      .paths__grid { grid-template-columns: 1fr; }
+      .offers__grid { grid-template-columns: 1fr; }
+      .coaching__inner { grid-template-columns: 1fr; gap: 40px; }
+      .pillars { grid-template-columns: 1fr; }
+      .audience__grid { grid-template-columns: repeat(2, 1fr); }
+      .story__achievements { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 736px) {
+      .section { padding: 72px 0; }
+      .navbar__links { display: none; }
+      .navbar__toggle { display: flex; }
+      .navbar__links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+        background: var(--blue-navy);
+        padding: 16px 24px 24px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+      }
+      .navbar__links.open a { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.06); width: 100%; }
+      .navbar__links.open .navbar__cta { margin-top: 8px; display: inline-block; }
+      .hero__title { font-size: 2.4rem; }
+      .hero__stats { flex-wrap: wrap; gap: 24px; }
+      .audience__grid { grid-template-columns: 1fr; }
+      .footer__inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer__bottom { flex-direction: column; gap: 12px; text-align: center; }
+      .retailers__grid { gap: 8px; }
+      .offers__grid { gap: 20px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero__ctas { flex-direction: column; align-items: stretch; }
+      .hero__ctas .btn { justify-content: center; }
+      .offer-card { padding: 32px 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+<header class="navbar">
+  <div class="container">
+    <nav class="navbar__inner">
+      <a href="#" class="navbar__brand">Lean <span>Leader</span> Formula</a>
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="#about">About the Book</a></li>
+        <li><a href="#author">Author</a></li>
+        <li><a href="#paths">Growth Paths</a></li>
+        <li><a href="#order" class="navbar__cta">Order Now</a></li>
+      </ul>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Manufacturing &amp; Operations Leadership</p>
+        <h1 class="hero__title">
+          Lean<br /><span>Leader</span><br />Formula
+        </h1>
+        <p class="hero__subtitle">People · Process · Equipment</p>
+        <p class="hero__desc">
+          The proven framework to grow from operator to Director in manufacturing and operations —
+          without waiting decades for someone to notice you.
+        </p>
+        <div class="hero__ctas">
+          <a href="#order" class="btn btn-primary">Get the Book →</a>
+          <a href="#coaching" class="btn btn-outline">Work With Me</a>
+        </div>
+        <div class="hero__stats">
+          <div>
+            <div class="hero__stat-num">7 yrs</div>
+            <div class="hero__stat-label">Operator to<br />Senior Director</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">2×</div>
+            <div class="hero__stat-label">Achieved in two<br />different countries</div>
+          </div>
+          <div>
+            <div class="hero__stat-num">$200M</div>
+            <div class="hero__stat-label">Revenue operations<br />managed today</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__book-card">
+        <div class="hero__book-badge">Now Available</div>
+        <h2 class="hero__book-title">Lean Leader Formula</h2>
+        <p class="hero__book-sub">By Hayk Dallakyan</p>
+        <ul class="hero__book-features">
+          <li>Nearly 2 decades of manufacturing experience distilled into 1.5–2 hrs of reading</li>
+          <li>1,000+ team interactions &amp; 300+ career interviews analyzed</li>
+          <li>Practical frameworks for People, Process &amp; Equipment</li>
+          <li>Works for operators, supervisors, and managers alike</li>
+        </ul>
+        <a href="#order" class="btn btn-primary" style="width:100%; justify-content:center;">Order Your Copy →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     RETAILERS
+========================================================= -->
+<section class="retailers" id="retailers">
+  <div class="container">
+    <p class="retailers__label">Available at your favorite retailer</p>
+    <div class="retailers__grid">
+      <a href="https://www.amazon.ca/Lean-Leader-Formula-Hayk-Dallakyan/dp/1069233102/" target="_blank" rel="noopener" class="retailer-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.492.13.105.174.09.354-.04.52-.18.22-.423.43-.733.63C17.965 22.54 14.5 23.38 10.94 23.38c-4.056 0-7.9-1.07-11.52-3.2-.23-.14-.32-.38-.22-.59l.037-.065.808-1.504zm4.87-10.12l1.68 3.7 1.77-3.7h1.5L7.535 15.5h-.96l-2.6-6.1h-.79l-.03-.5h2.76zm8.77-.13c.89 0 1.59.28 2.1.85.52.57.77 1.33.77 2.28v1.35H12.2c.04.64.26 1.14.65 1.49.4.36.91.54 1.53.54.44 0 .84-.07 1.2-.2.36-.14.71-.34 1.04-.6l.5.96c-.37.3-.81.54-1.32.72-.52.18-1.05.27-1.61.27-.77 0-1.44-.16-2.02-.48-.58-.32-1.02-.77-1.34-1.35-.32-.58-.48-1.25-.48-2.01 0-.77.16-1.44.48-2.02.32-.58.76-1.03 1.33-1.35.56-.32 1.2-.48 1.91-.48zm0 1.15c-.52 0-.94.17-1.27.52-.33.34-.53.83-.6 1.46h3.52c-.04-.63-.22-1.12-.53-1.46-.32-.35-.74-.52-1.25-.52zM12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0z"/></svg>
+        Amazon Canada
+      </a>
+      <a href="https://www.amazon.com/Lean-Leader-Formula-Hayk-Dallakyan/dp/1069233102/" target="_blank" rel="noopener" class="retailer-btn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.492.13.105.174.09.354-.04.52-.18.22-.423.43-.733.63C17.965 22.54 14.5 23.38 10.94 23.38c-4.056 0-7.9-1.07-11.52-3.2-.23-.14-.32-.38-.22-.59l.037-.065.808-1.504zm4.87-10.12l1.68 3.7 1.77-3.7h1.5L7.535 15.5h-.96l-2.6-6.1h-.79l-.03-.5h2.76zm8.77-.13c.89 0 1.59.28 2.1.85.52.57.77 1.33.77 2.28v1.35H12.2c.04.64.26 1.14.65 1.49.4.36.91.54 1.53.54.44 0 .84-.07 1.2-.2.36-.14.71-.34 1.04-.6l.5.96c-.37.3-.81.54-1.32.72-.52.18-1.05.27-1.61.27-.77 0-1.44-.16-2.02-.48-.58-.32-1.02-.77-1.34-1.35-.32-.58-.48-1.25-.48-2.01 0-.77.16-1.44.48-2.02.32-.58.76-1.03 1.33-1.35.56-.32 1.2-.48 1.91-.48zm0 1.15c-.52 0-.94.17-1.27.52-.33.34-.53.83-.6 1.46h3.52c-.04-.63-.22-1.12-.53-1.46-.32-.35-.74-.52-1.25-.52zM12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0z"/></svg>
+        Amazon US
+      </a>
+      <a href="https://www.barnesandnoble.com/w/lean-leader-formula-people-hayk-dallakyan/1146829170" target="_blank" rel="noopener" class="retailer-btn">
+        📚 Barnes &amp; Noble
+      </a>
+      <a href="https://www.booksamillion.com/p/Lean-Leader-Formula-People/Hayk-Dallakyan/9781069233103" target="_blank" rel="noopener" class="retailer-btn">
+        📖 Books-A-Million
+      </a>
+      <a href="https://bookshop.org/p/books/lean-leader-formula-people-hayk-dallakyan/22220829" target="_blank" rel="noopener" class="retailer-btn">
+        🛍️ Bookshop.org
+      </a>
+      <a href="https://www.indigo.ca/en-ca/lean-leader-formula---people/9781069233103.html" target="_blank" rel="noopener" class="retailer-btn">
+        🍁 Indigo / Chapters
+      </a>
+      <a href="https://blackwells.co.uk/bookshop/product/Lean-Leader-Formula-People-by-Hayk-Dallakyan/9781069233103" target="_blank" rel="noopener" class="retailer-btn">
+        🇬🇧 Blackwell's UK
+      </a>
+      <a href="https://www.walmart.com/ip/Lean-Leader-Formula-People-Paperback-9781069233103/15053968247" target="_blank" rel="noopener" class="retailer-btn">
+        🛒 Walmart
+      </a>
+      <a href="https://leanleader.kit.com/products/lean-leader-formula-people" target="_blank" rel="noopener" class="retailer-btn">
+        📱 eBook (Direct)
+      </a>
+      <a href="https://www.amazon.ca/Lean-Leader-Formula-People-faster-ebook/dp/B0CYT4W9Q6/" target="_blank" rel="noopener" class="retailer-btn">
+        📱 eBook (Amazon CA)
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     ABOUT THE BOOK
+========================================================= -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="about__grid">
+      <div>
+        <p class="eyebrow">About the Book</p>
+        <h2 class="section-title">You Don't Need Decades to Reach Director</h2>
+        <div class="divider"></div>
+        <blockquote class="about__quote">
+          "Reject the idea that you need decades to grow from operator to Director — because you don't."
+        </blockquote>
+        <p class="about__text">
+          Most manufacturing books focus on lean tools, Six Sigma belts, and process optimization.
+          But your career doesn't stall because you don't know enough tools.
+          It stalls because nobody taught you how to lead people.
+        </p>
+        <p class="about__text">
+          Lean Leader Formula gives you the exact framework — drawn from nearly two decades in
+          manufacturing, 1,000+ team interactions, and 300+ career interviews — to build the
+          relationships, trust, and leadership presence that gets you promoted.
+        </p>
+        <p class="about__text">
+          It doesn't matter if you're an operator, technician, line leader, supervisor, or manager.
+          This book meets you where you are.
+        </p>
+        <div style="margin-top:32px;">
+          <a href="#order" class="btn btn-primary">Order Your Copy →</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="pillars">
+          <div class="pillar">
+            <div class="pillar__icon">🤝</div>
+            <h3>People</h3>
+            <p>Build genuine bonds, earn trust, and develop the people around you into a high-performing team.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">⚙️</div>
+            <h3>Process</h3>
+            <p>Learn to communicate, delegate, and create accountability systems that actually work on the floor.</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">🏭</div>
+            <h3>Equipment</h3>
+            <p>Understand your operation deeply enough to drive performance — without micromanaging every detail.</p>
+          </div>
+        </div>
+
+        <div class="benefit-list" style="margin-top:36px;">
+          <div class="benefit-item">
+            <div class="benefit-icon">📍</div>
+            <div>
+              <h4>Assess your starting point</h4>
+              <p>Know exactly where you stand and build a realistic growth plan from there.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">🔗</div>
+            <div>
+              <h4>Build deeper connections</h4>
+              <p>Learn how to genuinely connect with operators, peers, and executives alike.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <div class="benefit-icon">🎯</div>
+            <div>
+              <h4>Become the leader people choose</h4>
+              <p>Develop communication, training, and development skills that make others want to follow you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     AUTHOR
+========================================================= -->
+<section class="section section--alt" id="author">
+  <div class="container">
+    <div class="story__grid">
+      <div class="story__photo-wrap">
+        <img src="hayk.jpg.jpg" alt="Hayk Dallakyan" class="story__photo" />
+        <div class="story__photo-tag">
+          Operator → Senior Director<br />
+          <strong>In 7 Years. Twice.</strong>
+        </div>
+      </div>
+
+      <div>
+        <p class="eyebrow">The Author</p>
+        <h2 class="section-title">Hayk Dallakyan</h2>
+        <div class="divider"></div>
+
+        <p class="story__text">
+          In 2007, in post-Soviet Armenia with 27% unemployment, a 25-year-old engineer with a
+          Master's degree took a job as a line operator at a chocolate factory earning $200/month.
+          Most people would have accepted that ceiling. <strong>Hayk chose not to.</strong>
+        </p>
+        <p class="story__text">
+          By mastering not lean tools — but <strong>people relationships</strong> — he was promoted
+          every two years. Within 7 years he became Plant Senior Operations Director,
+          managing 2,500+ people and increasing his income 7x.
+        </p>
+        <p class="story__text">
+          Then he immigrated to Canada in 2017 with zero local experience, and did it again.
+          Starting from scratch, he grew to Senior Director in less than 7 years — today managing
+          operations generating $200M in revenue.
+        </p>
+
+        <div class="story__achievements">
+          <div class="achievement">
+            <div class="achievement__icon">🏆</div>
+            <div>
+              <h4>2,500+ People Managed</h4>
+              <p>Led large teams across two continents</p>
+            </div>
+          </div>
+          <div class="achievement">
+            <div class="achievement__icon">🌍</div>
+            <div>
+              <h4>Two Countries, Same Result</h4>
+              <p>Armenia and Canada — operator to Director both times</p>
+            </div>
+          </div>
+          <div class="achievement">
+            <div class="achievement__icon">💰</div>
+            <div>
+              <h4>7x Income in 7 Years</h4>
+              <p>From $200/month to multiple 6-digit income</p>
+            </div>
+          </div>
+          <div class="achievement">
+            <div class="achievement__icon">📈</div>
+            <div>
+              <h4>$200M Revenue Operations</h4>
+              <p>Currently overseeing large-scale manufacturing</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="story__text" style="font-style:italic; border-left:3px solid var(--gold); padding-left:16px; color: var(--blue-navy);">
+          "Lean manufacturing gurus and coaches are not going to save you. A green or black belt
+          is not your growth ticket. Everything starts and flows with people — and that's what
+          this book teaches you to master."
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     WHO IT'S FOR
+========================================================= -->
+<section class="section">
+  <div class="container">
+    <div class="text-center">
+      <p class="eyebrow">Who It's For</p>
+      <h2 class="section-title">Wherever You Are in Your Journey</h2>
+      <div class="divider"></div>
+      <p class="section-intro">
+        You don't need a Six Sigma belt or an Oxford degree to grow faster than 90% of your peers.
+        You just need the right playbook.
+      </p>
+    </div>
+
+    <div class="audience__grid">
+      <div class="audience-card">
+        <div class="audience-card__icon">🔧</div>
+        <h4>Operators &amp; Technicians</h4>
+        <p>You want to prove yourself but don't know what managers are actually looking for. This book tells you exactly.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-card__icon">📋</div>
+        <h4>Line Leaders &amp; Supervisors</h4>
+        <p>You're managing people for the first time and need practical tools to build trust without losing authority.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-card__icon">📊</div>
+        <h4>Managers</h4>
+        <p>You've plateaued and need to understand what separates managers from directors in the eyes of leadership.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-card__icon">⏰</div>
+        <h4>Only 30 Minutes a Day</h4>
+        <p>You're working long shifts. The book is built to fit your schedule — not the other way around.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-card__icon">🆕</div>
+        <h4>New to Operations</h4>
+        <p>You're just starting out and want to set yourself up for accelerated growth from day one.</p>
+      </div>
+      <div class="audience-card">
+        <div class="audience-card__icon">🌎</div>
+        <h4>Immigrants &amp; Career Changers</h4>
+        <p>Starting over in a new country or industry? This framework has been proven to work across cultures.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     GROWTH PATHS
+========================================================= -->
+<section class="section section--alt" id="paths">
+  <div class="container">
+    <div class="text-center">
+      <p class="eyebrow">Two Ways to Work With Me</p>
+      <h2 class="section-title">Choose Your Growth Path</h2>
+      <div class="divider"></div>
+      <p class="section-intro">
+        The right level of support depends on how fast you want to grow. Both paths share the same
+        proven framework — they differ in depth, speed, and personal attention.
+      </p>
+    </div>
+
+    <div class="paths__grid" style="grid-template-columns: repeat(2, 1fr);">
+      <!-- Path 1: Book (featured) -->
+      <div class="path-card path-card--featured">
+        <span class="path-card__speed">Proven Path — The Book</span>
+        <h3>Lean Leader Formula</h3>
+        <p>
+          Almost two decades of manufacturing experience packed into 1.5–2 hours of reading.
+          Get the full framework for People, Process, and Equipment leadership.
+        </p>
+        <ul class="path-card__includes">
+          <li>Complete People-Process-Equipment framework</li>
+          <li>Available as paperback and eBook</li>
+          <li>Bonus: "Art of Empowering Questions" guide</li>
+          <li>50% off first month of NewtoPro Manager AI</li>
+        </ul>
+        <a href="#order" class="btn btn-primary btn-sm">Order the Book →</a>
+      </div>
+
+      <!-- Path 2: Coaching -->
+      <div class="path-card">
+        <span class="path-card__speed">Fast Lane — 1:1 Coaching</span>
+        <h3>Individual Coaching</h3>
+        <p>
+          The fastest path to results. Weekly or bi-weekly calls with direct, hands-on feedback
+          tailored specifically to your situation and goals.
+        </p>
+        <ul class="path-card__includes">
+          <li>Weekly or bi-weekly sessions</li>
+          <li>Personalized action plans</li>
+          <li>Direct feedback on real challenges</li>
+          <li>Send an email to get started</li>
+        </ul>
+        <a href="mailto:hayk@leanleaderformula.com" class="btn btn-dark btn-sm">Email Hayk →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     ORDER / PURCHASE OPTIONS
+========================================================= -->
+<section class="section section--dark" id="order">
+  <div class="container">
+    <div class="text-center">
+      <p class="eyebrow">Order Today</p>
+      <h2 class="section-title">Pick Your Copy</h2>
+      <div class="divider" style="background:var(--gold);"></div>
+      <p class="section-intro">
+        Both options include exclusive bonuses. Choose the one that fits your goal.
+      </p>
+    </div>
+
+    <div class="offers__grid">
+      <!-- Single Copy -->
+      <div class="offer-card">
+        <span class="offer-card__tag">For Individuals</span>
+        <h3>A Growth Seeker</h3>
+        <p class="offer-card__subtitle">One copy for your own career acceleration</p>
+        <ul class="offer-card__list">
+          <li>Paperback or eBook of Lean Leader Formula</li>
+          <li>Personalized email consultation — bring a real manufacturing or operations challenge</li>
+          <li>50% discount on your first month of NewtoPro Manager AI</li>
+          <li>Free "The Art of Empowering Questions" guide (downloadable)</li>
+        </ul>
+        <div>
+          <a href="https://www.amazon.ca/Lean-Leader-Formula-Hayk-Dallakyan/dp/1069233102/" target="_blank" rel="noopener" class="btn btn-primary" style="margin-bottom:12px; width:100%; justify-content:center;">Order 1 Copy Now →</a>
+          <a href="https://leanleader.kit.com/products/lean-leader-formula-people" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="width:100%; justify-content:center;">Get the eBook →</a>
+        </div>
+      </div>
+
+      <!-- Bulk Copy -->
+      <div class="offer-card">
+        <span class="offer-card__tag">For Teams &amp; Executives</span>
+        <h3>A Growth Distributor</h3>
+        <p class="offer-card__subtitle">10+ copies to invest in your team's growth</p>
+        <ul class="offer-card__list">
+          <li>10 or more copies for your team at a group rate</li>
+          <li>Free first month of NewtoPro Manager AI subscription</li>
+          <li>Optional 30-minute virtual introduction with Hayk and the team</li>
+          <li>Ideal for operations managers investing in frontline leadership development</li>
+        </ul>
+        <div>
+          <a href="mailto:hayk@leanleaderformula.com" class="btn btn-primary" style="width:100%; justify-content:center;">Inquire for 10+ Copies →</a>
+          <p style="font-size:0.82rem; color:rgba(255,255,255,0.45); margin-top:12px; text-align:center;">
+            Contact us to discuss volume pricing and delivery options.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- All retailers repeated for convenience -->
+    <div style="text-align:center; margin-top:56px;">
+      <p style="font-size:0.9rem; color:rgba(255,255,255,0.50); margin-bottom:24px; letter-spacing:0.06em; text-transform:uppercase; font-size:12px; font-weight:600;">Also available at</p>
+      <div class="retailers__grid" style="justify-content:center;">
+        <a href="https://www.amazon.com/Lean-Leader-Formula-Hayk-Dallakyan/dp/1069233102/" target="_blank" rel="noopener" class="retailer-btn">Amazon US</a>
+        <a href="https://www.barnesandnoble.com/w/lean-leader-formula-people-hayk-dallakyan/1146829170" target="_blank" rel="noopener" class="retailer-btn">Barnes &amp; Noble</a>
+        <a href="https://www.booksamillion.com/p/Lean-Leader-Formula-People/Hayk-Dallakyan/9781069233103" target="_blank" rel="noopener" class="retailer-btn">Books-A-Million</a>
+        <a href="https://bookshop.org/p/books/lean-leader-formula-people-hayk-dallakyan/22220829" target="_blank" rel="noopener" class="retailer-btn">Bookshop.org</a>
+        <a href="https://www.indigo.ca/en-ca/lean-leader-formula---people/9781069233103.html" target="_blank" rel="noopener" class="retailer-btn">Indigo / Chapters</a>
+        <a href="https://blackwells.co.uk/bookshop/product/Lean-Leader-Formula-People-by-Hayk-Dallakyan/9781069233103" target="_blank" rel="noopener" class="retailer-btn">Blackwell's UK</a>
+        <a href="https://www.walmart.com/ip/Lean-Leader-Formula-People-Paperback-9781069233103/15053968247" target="_blank" rel="noopener" class="retailer-btn">Walmart</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     COACHING CTA
+========================================================= -->
+<section class="section section--blue" id="coaching">
+  <div class="container">
+    <div class="coaching__inner">
+      <div class="coaching__text">
+        <p class="eyebrow">1:1 Coaching</p>
+        <h2 class="section-title">The Fastest Way to Grow</h2>
+        <div class="divider"></div>
+        <p>
+          The book gives you the framework. Coaching gives you a thought partner who has lived
+          it — and can help you apply it to your specific role, team, and challenges.
+        </p>
+        <p>
+          If you're serious about accelerating your career in manufacturing and operations,
+          reach out directly. Tell me where you are now, where you want to go, and what's
+          holding you back. No forms, no scheduling links — just send an email.
+        </p>
+        <div style="margin-top:32px; display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="mailto:hayk@leanleaderformula.com" class="btn btn-primary">Email Hayk →</a>
+        </div>
+      </div>
+
+      <div class="coaching__card">
+        <h3>What to Expect</h3>
+        <p>Weekly or bi-weekly sessions focused on your real challenges</p>
+        <ul class="coaching__card-list">
+          <li>Personalized review of your current situation</li>
+          <li>Action plans tailored to your team and role</li>
+          <li>Direct feedback — no generic advice</li>
+          <li>Accountability between sessions</li>
+          <li>Frameworks that work in manufacturing reality</li>
+        </ul>
+        <a href="mailto:hayk@leanleaderformula.com" class="btn btn-primary" style="width:100%; justify-content:center;">Send Hayk an Email →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand">Lean <span>Leader</span> Formula</div>
+        <p class="footer__tagline">
+          A transformative guide to help you grow faster in operations and manufacturing —
+          from operator to Director.
+        </p>
+      </div>
+      <div class="footer__links">
+        <a href="mailto:hayk@leanleaderformula.com">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/haykdallakyan" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2024 Lean Leader Formula. All rights reserved.</span>
+      <span>ISBN: 9781069233103 · Author: Hayk Dallakyan</span>
+    </div>
+  </div>
+</footer>
+
+<!-- =========================================================
+     JS: Mobile Nav
+========================================================= -->
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const links  = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    links.classList.toggle('open');
+  });
+
+  // Close on link click
+  links.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => links.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
